@@ -2,12 +2,12 @@
 
 ## Build the image
 
-´´´bash
+`bash
 docker build -t mysqlimg .
-´´´
+`
 
 ## Run a container
 
-´´´bash
+`bash
 docker run -it -p 3306:3306 mysqlimg
-´´´
+`
